@@ -38,11 +38,12 @@ Another example set of formations and commands that were performed in smaller in
 ## These are instructions of how to set up a new robot to run the multi robot demo
 
 1. SSH in to robot
-  ```
-    ssh-copy-id dragonflyXX@dragonflyXX
-  ssh dragonflyXX@dragonflyXX
-  sudo -s
-    ```
+	```
+  	ssh-copy-id dragonflyXX@dragonflyXX
+  	ssh dragonflyXX@dragonflyXX
+  	sudo -s
+	```
+  
 1. **Copy** (*scp*) `scripts_vio_swarm` directory from the groundstation to the home directory of the robot
 1. **Copy** (*scp*) `robot_ws_vio_swarm` to the home directory of the robot
 1. **Edit** mav_manager/config/server_multimaster.yaml on the robot
